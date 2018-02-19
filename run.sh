@@ -1,0 +1,1 @@
+python train.py --expt_dir /tmp/ --save_dir /tmp/ --mnist ../Data/mnist.pkl.gz --lr 0.2 --momentum 0.05 --num_hidden 2 --sizes 300,300 --activation relu --loss ce --opt adam --batch_size 200  --lamda 0.1 --epochs=60
